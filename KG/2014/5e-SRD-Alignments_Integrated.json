@@ -1,0 +1,9 @@
+[
+    {
+        "index": "true-neutral",
+        "name": "True Neutral",
+        "abbreviation": "TN",
+        "desc": "Neutral characters have no particular alignment towards good or evil, nor are they ruled by chaos or order. Neutral characters are pragmatic and will work towards whatever seems best at the time. Characters who serve as impartial observers tend to be Neutral. Similarly, characters whose main focus is on balance or preserving the natural order, with no specific emphasis on protecting anyone or pursuing selfish gain, are considered Neutral.",
+        "url": "/api/2014/alignments/lawful-good"
+    }
+]

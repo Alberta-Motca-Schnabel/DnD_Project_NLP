@@ -1,0 +1,26 @@
+[
+  {
+    "index": "aasimar",
+    "name": "Aasimar",
+    "type": "Humanoid",
+    "size": "Medium or Small",
+    "speed": 30,
+    "traits": [
+      {
+        "index": "celestial-resistance"
+      },
+      {
+        "index": "darkvision-60"
+      },
+      {
+        "index": "healing-hands"
+      },
+      {
+        "index": "light-bearer"
+      },
+      {
+        "index": "celestial-revelation"
+      }
+    ]
+  }
+]

@@ -1,0 +1,429 @@
+[ 
+  {
+    "index": "sailor-pirate",
+    "name": "Sailor (Pirate)",
+    "desc": [
+      "You spent your youth under the sway of a dread pirate, a ruthless cutthroat who taught you how to survive in a world of sharks and savages. You've indulged in larceny on the high seas and sent more than one deserving soul to a briny grave. Fear and bloodshed are no strangers to you, and you've garnered a somewhat unsavory reputation in many a port town."
+    ],
+    "starting_proficiencies": [
+      {
+        "index": "skill-athletics",
+        "name": "Skill: Athletics"
+      },
+      {
+        "index": "skill-perception",
+        "name": "Skill: Perception"
+      },
+      {
+        "index": "tool-navigator's tools",
+        "name": "Tool : Navigator's tools"
+      },
+      {
+        "index": "tool-vehicles-(water)",
+        "name": "Tool : Vehicles (water)"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "club",
+          "name": "Club (Belaying Pin)"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "rope-silk",
+          "name": "Silk Rope (50 feet)"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "clothes-common",
+          "name": "Common Clothes"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "Pouch"
+        },
+        "quantity": 1
+      }
+    ],
+    "feature": {
+      "name": "Bad Reputation",
+      "desc": [
+        "No matter where you go, people are afraid of you due to your reputation. When you are in a civilized settlement, you can get away with minor criminal offenses, such as refusing to pay for food at a tavern or breaking down doors at a local shop, since most people will not report your activity to the authorities."
+      ]
+    }
+  },
+  {
+    "index": "criminal-spy",
+    "name": "Criminal (Spy)",
+    "desc": [
+      "Although your capabilities are not much different from those of a burglar or smuggler, you learned and practiced them in a very different context: as an espionage agent. You might have been an officially sanctioned agent of the crown, or perhaps you sold the secrets you uncovered to the highest bidder."
+    ],
+    "starting_proficiencies": [
+      {
+        "index": "skill-deception",
+        "name": "Skill: Deception"
+      },
+      {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth"
+      },
+      {
+        "index": "tool-gaming-set,",
+        "name": "Tool : Gaming Set,"
+      },
+      {
+        "index": "tool-thieves'-tools",
+        "name": "Tool : Thieves' tools"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "crowbar,",
+          "name": "Crowbar,"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": " dark-common-clothes",
+          "name": " Dark Common Clothes"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "Pouch With 15 gp"
+        },
+        "quantity": 1
+      }
+    ],
+    "feature": {
+      "name": "Spy Contact",
+      "desc": [
+        "You have a reliable and trustworthy contact who acts as your liaison to a network of other spies. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you."
+      ]
+    }
+  },
+  {
+    "index": "urchin",
+    "name": "Urchin",
+    "desc": [
+      "You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You've survived despite all odds, and did so through cunning, strength, speed, or some combination of each."
+    ],
+    "starting_proficiencies": [
+      {
+        "index": "skill-sleight-of-hand",
+        "name": "Skill:  Sleight of Hand"
+      },
+      {
+        "index": "skill-stealth",
+        "name": "Skill: Stealth"
+      },
+      {
+        "index": "tool-disguise-kit,",
+        "name": "Tool :  Disguise kit,"
+      },
+      {
+        "index": "tool-thieves-tools",
+        "name": "Tool : Thieves' tools"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "small-knife,",
+          "name": "Small Knife,"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "map-of-the-city-you-grew-up-in",
+          "name": " map of the city you grew up in"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pet-mouse",
+          "name": " pet mouse"
+        },
+        "quantity": 1
+      },{
+        "equipment": {
+          "index": "common-clothes",
+          "name": "Common-Clothes"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "Pouch With 10 gp"
+        },
+        "quantity": 1
+      }
+    ],
+    "feature": {
+      "name": "City Secrets",
+      "desc": [
+        "you know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow."
+      ]
+    }
+  },
+  {
+    "index": "outlander",
+    "name": "Outlander",
+    "desc": [
+      "You grew up in the wilds, far from civilization and the comforts of town and technology. You've witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don't know the specific features of the terrain, you know the ways of the wild."
+    ],
+    "starting_proficiencies": [
+      {
+        "index": "skill-athletics",
+        "name": "Skill:  Athletics"
+      },
+      {
+        "index": "skill-survival",
+        "name": "Skill: Survival"
+      },
+      {
+        "index": "tool-musical_instrument,",
+        "name": "Tool : Musical Instrument,"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "staff",
+          "name": "Staff"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "hunting trap",
+          "name": " Hunting Trap"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "trophy-from-an-animal-you-killed",
+          "name": "Trophy from an animal you killed"
+        },
+        "quantity": 1
+      },{
+        "equipment": {
+          "index": "traveler's-clothes",
+          "name": "traveler's clothes"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "Pouch With 10 gp"
+        },
+        "quantity": 1
+      }
+    ],
+    "feature": {
+      "name": "Wanderer",
+      "desc": [
+        "You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth."
+      ]
+    }
+  },
+  {
+    "index": "noble-(Knight)",
+    "name": "Noble (Knight)",
+    "desc": [
+        "A knighthood is among the lowest noble titles in most societies, but it can be a path to higher status. If you wish to be a knight, choose the Retainers feature instead of the Position of Privilege feature. One of your commoner retainers is replaced by a noble who serves as your squire, aiding you in exchange for training on his or her own path to knighthood. Your two remaining retainers might include a groom to care for your horse and a servant who polishes your armor (and even helps you put it on)."
+    ],
+    "starting_proficiencies": [
+      {
+        "index": "skill-history",
+        "name": "Skill: History"
+      },
+      {
+        "index": "skill-persuasion",
+        "name": "Skill: Persuasion"
+      },
+      {
+        "index": "tool-gaming-set,",
+        "name": "Tool : Gaming Set,"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": "fine-clothes",
+          "name": "Fine-Clothes"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "signet-ring",
+          "name": "Signet Ring"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "scroll-of-pedigree",
+          "name": "Scroll Of Pedigree"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "Pouch With 25 gp"
+        },
+        "quantity": 1
+      }
+    ],
+    "feature": {
+      "name": "Retainers",
+      "desc": [
+        "You have the service of three retainers loyal to your family. These retainers can be attendants or messengers, and one might be a majordomo. One of your retainers is a noble who serves as your squire, aiding you in exchange for training on his or her own path to knighthood (This person could be your bond.). Your two remaining retainers might include a groom to care for your horse and a servant who polishes your armor (and even helps you put it on)."
+      ]
+    }
+  },
+   {
+    "index": "guild-artisan",
+    "name": "Guild Artisan",
+    "desc": [
+        "You are a member of an artisan's guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own right."
+    ],
+    "starting_proficiencies": [
+      {
+        "index": "skill-insight,",
+        "name": "Skill: Insight,"
+      },
+      {
+        "index": "skill-persuasion",
+        "name": "Skill: Persuasion"
+      },
+      {
+        "index": "tool-artisan's-tools,",
+        "name": "Tool :  Artisan's tools,"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": " artisan's-tools",
+          "name": "Artisan's tools"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "letter-of-introduction-from-your-guild",
+          "name": "Letter of introduction from your guild"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": " traveler's-clothes",
+          "name": " Traveler's clothes"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "Pouch With 15 gp"
+        },
+        "quantity": 1
+      }
+    ],
+    "feature": {
+      "name": "Guild Membership",
+      "desc": [
+          "As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. Such connections might require the donation of money or magic items to the guild's coffers.You must pay dues of 5 gp per month to the guild. If you miss payments, you must make up back dues to remain in the guild's good graces."
+      ]
+    }
+  },
+  {
+    "index": "folk-hero",
+    "name": "Folk-Hero",
+    "desc": [
+      "You come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere."
+    ],
+    "starting_proficiencies": [
+      {
+        "index": "survival",
+        "name": "Skill: Survival,"
+      },
+      {
+        "index": "skill-animal-handling",
+        "name": "Skill: Animal Handling"
+      },
+      {
+        "index": "tool-artisan's-tools",
+        "name": "Tool :  Artisan's tools"
+      },
+      {
+        "index": "tool-vehicles-(land)",
+        "name": "Tool : Vehicles (land)"
+      }
+    ],
+    "starting_equipment": [
+      {
+        "equipment": {
+          "index": " artisan's-tools",
+          "name": "Artisan's tools"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "shovel,",
+          "name": "Shovel,"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "iron pot",
+          "name": "Iron pot"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "common-clothes",
+          "name": "Common clothes"
+        },
+        "quantity": 1
+      },
+      {
+        "equipment": {
+          "index": "pouch",
+          "name": "Pouch With 10 gp"
+        },
+        "quantity": 1
+      }
+    ],
+    "feature": {
+      "name": "Rustic Hospitality",
+      "desc": [
+          "Since you come from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you."
+      ]
+    }
+  }
+]

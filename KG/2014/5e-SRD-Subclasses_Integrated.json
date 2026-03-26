@@ -1,0 +1,76 @@
+[
+  {
+    "index": "death-domain",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric"
+    },
+    "name": "Death Domain",
+    "subclass_flavor": "Divine Domain",
+    "desc": [
+      "The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures. Deities such as Chemosh, Myrkul, and Wee Jas are patrons of necromancers, death knights, liches, mummy lords, and vampires. Gods of the Death domain also embody murder (Anubis, Bhaal, and Pyremius), pain (Iuz or Loviatar), disease or poison (Incabulos, Talona, or Morgion), and the underworld (Hades and Hel)."
+    ]
+  },
+  {
+    "index": "nature-domain",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric"
+    },
+    "name": "Nature Domain",
+    "subclass_flavor": "Divine Domain",
+    "desc": [
+      "Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests (such as Silvanus, Obad-Hai, Chislev, Balinor, and Pan) to friendly deities associated with particular springs and groves (such as Eldath). Druids revere nature as a whole and might serve one of these deities, practicing mysterious rites and reciting all-but-forgotten prayers in their own secret tongue. But many of these gods have clerics as well, champions who take a more active role in advancing the interests of a particular nature god."
+    ]
+  },
+  {
+    "index": "tempest-domain",
+    "class": {
+      "index": "cleric",
+      "name": "Cleric"
+    },
+    "name": "Tempest Domain",
+    "subclass_flavor": "Divine Domain",
+    "desc": [
+      "Gods whose portfolios include the Tempest domain—including Talos, Umberlee, Kord, Zeboim, the Devourer, Zeus, and Thor—govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts."
+    ]
+  },
+  {
+    "index": "oathbreaker",
+    "class": {
+      "index": "paladin",
+      "name": "Paladin"
+    },
+    "name": "Oathbreaker",
+    "subclass_flavor": "Sacred Oath",
+    "desc": [
+      "An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in the paladin's heart has been extinguished. Only darkness remains.",
+      "A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features."
+    ]
+  },
+  {
+    "index": "school-of-enchantment",
+    "class": {
+      "index": "wizard",
+      "name": "Wizard"
+    },
+    "name": "School of Enchantment",
+    "subclass_flavor": "Arcane Tradition",
+    "desc": [
+      "As a member of the School of Enchantment, you have honed your ability to magically entrance and beguile other people and monsters. Some enchanters are peacemakers who bewitch the violent to lay down their arms and charm the cruel into showing mercy. Others are tyrants who magically bind the unwilling into their service. Most enchanters fall somewhere in between."
+    ]
+  },
+  {
+    "index": "school-of-necromancy",
+    "class": {
+      "index": "wizard",
+      "name": "Wizard"
+    },
+    "name": "School of Necromancy",
+    "subclass_flavor": "Arcane Tradition",
+    "desc": [
+      "The School of Necromancy explores the cosmic forces of life, death, and undeath. As you focus your studies in this tradition, you learn to manipulate the energy that animates all living things. As you progress, you learn to sap the life force from a creature as your magic destroys its body, transforming that vital energy into magical power you can manipulate.",
+      "Most people see necromancers as menacing, or even villainous, due to the close association with death. Not all necromancers are evil, but the forces they manipulate are considered taboo by many societies."
+    ]
+  }
+]

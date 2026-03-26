@@ -1,0 +1,874 @@
+[
+  {
+    "index": "toll-the-dead",
+    "name": "Toll the Dead",
+    "level": 0,
+    "desc": [
+      "You point at one creature you can see within range, and the single chime of a dolorous bell is audible within 10 feet of the target. The target must succeed on a Wisdom saving throw or take 1d8 Necrotic damage. If the target is missing any of its Hit Points, it instead takes 1d12 Necrotic damage."
+    ],
+    "higher_level": [
+      "Cantrip Upgrade. The damage increases by one die when you reach levels 5 (2d8 or 2d12), 11 (3d8 or 3d12), and 17 (4d8 or 4d12)."
+    ],
+    "casting_time": "1 action",
+    "duration": "Instantaneous",
+    "school": {
+      "index": "necromancy"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "necrotic"
+      }
+    },
+    "classes": [
+      { "index": "cleric" },
+      { "index": "warlock" },
+      { "index": "wizard" }
+    ],
+    "subclasses": [
+      { "index": "arcana" },
+      { "index": "arcane-trickster" },
+      { "index": "lore" },
+      { "index": "death" },
+      { "index": "divine-soul" },
+      { "index": "eldritch-knight" }
+    ]
+  },
+  {
+    "index": "word-of-radiance",
+    "name": "Word of Radiance",
+    "level": 0,
+    "desc": [
+      "Burning radiance erupts from you in a 5-foot Emanation. Each creature of your choice that you can see in it must succeed on a Constitution saving throw or take 1d6 Radiant damage."
+    ],
+    "higher_level": [
+      "Cantrip Upgrade. The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6)."
+    ],
+    "casting_time": "1 action",
+    "duration": "Instantaneous",
+    "school": {
+      "index": "evocation"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "radiant"
+      }
+    },
+    "classes": [
+      { "index": "cleric" }
+    ],
+    "subclasses": [
+      { "index": "lore" },
+      { "index": "divine-soul" }
+    ]
+  },
+  {
+    "index": "searing-smite",
+    "name": "Searing Smite",
+    "level": 1,
+    "desc": [
+      "As you hit the target, it takes an extra 1d6 Fire damage from the attack. At the start of each of its turns until the spell ends, the target takes 1d6 Fire damage and then makes a Constitution saving throw. On a failed save, the spell continues. On a successful save, the spell ends."
+    ],
+    "higher_level": [
+      "Using a Higher-Level Spell Slot. All the damage increases by 1d6 for each spell slot level above 1."
+    ],
+    "casting_time": "Bonus action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike",
+    "duration": "1 minute",
+    "school": {
+      "index": "evocation"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "fire"
+      }
+    },
+    "classes": [
+      { "index": "paladin" }
+    ],
+    "subclasses": [
+      { "index": "forge" },
+      { "index": "zeal" }
+    ]
+  },
+  {
+    "index": "ray-of-sickness",
+    "name": "Ray of Sickness",
+    "level": 1,
+    "desc": [
+      "You shoot a greenish ray at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 Poison damage and has the Poisoned condition until the end of your next turn."
+    ],
+    "higher_level": [
+      "Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 1."
+    ],
+    "casting_time": "Action",
+    "duration": "Instantaneous",
+    "school": {
+      "index": "necromancy"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "poison"
+      }
+    },
+    "classes": [
+      { "index": "sorcerer" },
+      { "index": "wizard" }
+    ],
+    "subclasses": [
+      { "index": "alchemist" },
+      { "index": "arcane-trickster" },
+      { "index": "land" },
+      { "index": "lore" },
+      { "index": "death" },
+      { "index": "eldritch-knight" },
+      { "index": "lunar" },
+      { "index": "undying" }
+    ]
+  },
+  {
+    "index": "wrathful-smite",
+    "name": "Wrathful Smite",
+    "level": 1,
+    "desc": [
+      "The target takes an extra 1d6 Necrotic damage from the attack, and it must succeed on a Wisdom saving throw or have the Frightened condition until the spell ends. At the end of each of its turns, the Frightened target repeats the save, ending the spell on itself on a success."
+    ],
+    "higher_level": [
+      "Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 1."
+    ],
+    "casting_time": "Bonus action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike",
+    "duration": "1 minute",
+    "school": {
+      "index": "necromancy"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "necrotic"
+      }
+    },
+    "classes": [
+      { "index": "paladin" }
+    ],
+    "subclasses": [
+      { "index": "hexblade" }
+    ]
+  },
+  {
+    "index": "crusaders-mantle",
+    "name": "Crusader's Mantle",
+    "level": 3,
+    "desc": [
+      "You radiate a magical aura in a 30-foot Emanation. While in the aura, you and your allies each deal an extra 1d4 Radiant damage when hitting with a weapon or an Unarmed Strike."
+    ],
+    "casting_time": "Action",
+    "duration": "Concentration, up to 1 minute",
+    "school": {
+      "index": "evocation"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "radiant"
+      }
+    },
+    "classes": [
+      { "index": "paladin" }
+    ],
+    "subclasses": [
+      { "index": "war" },
+      { "index": "solidarity" }
+    ]
+  },
+  {
+    "index": "thunderous-smite",
+    "name": "Thunderous Smite",
+    "level": 1,
+    "desc": [
+      "Your strike rings with thunder that is audible within 300 feet of you, and the target takes an extra 2d6 Thunder damage from the attack. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and have the Prone condition."
+    ],
+    "higher_level": [
+      "Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 1."
+    ],
+    "casting_time": "Bonus action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike",
+    "duration": "Instantaneous",
+    "school": {
+      "index": "evocation"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "thunder"
+      }
+    },
+    "classes": [
+      { "index": "paladin" }
+    ],
+    "subclasses": [
+      { "index": "noble-genies" },
+      { "index": "zeal" }
+    ]
+  },
+  {
+    "index": "nystuls-magic-aura",
+    "name": "Nystul's Magic Aura",
+    "level": 2,
+    "desc": [
+      "With a touch, you place an illusion on a willing creature or an object that isn't being worn or carried. A creature gains the Mask effect below, and an object gains the False Aura effect below. The effect lasts for the duration. If you cast the spell on the same target every day for 30 days, the illusion lasts until dispelled.",
+      "Mask (Creature). Choose a creature type other than the target's actual type. Spells and other magical effects treat the target as if it were a creature of the chosen type.",
+      "False Aura (Object). You change the way the target appears to spells and magical effects that detect magical auras, such as Detect Magic. You can make a nonmagical object appear magical, make a magic item appear nonmagical, or change the object's aura so that it appears to belong to a school of magic you choose."
+    ],
+    "casting_time": "Action",
+    "duration": "24 hours",
+    "school": {
+      "index": "illusion"
+    },
+    "classes": [
+      { "index": "wizard" }
+    ],
+    "subclasses": [
+      { "index": "arcana" },
+      { "index": "arcane-trickster" },
+      { "index": "lore" },
+      { "index": "eldritch-knight" },
+      { "index": "illusionist" }
+    ]
+  },
+  {
+    "index": "compelled-duel",
+    "name": "Compelled Duel",
+    "level": 1,
+    "desc": [
+      "You try to compel a creature into a duel. One creature that you can see within range makes a Wisdom saving throw. On a failed save, the target has Disadvantage on attack rolls against creatures other than you, and it can't willingly move to a space that is more than 30 feet away from you.",
+      "The spell ends if you make an attack roll against a creature other than the target, if you cast a spell on an enemy other than the target, if an ally of yours damages the target, or if you end your turn more than 30 feet away from the target."
+    ],
+    "casting_time": "Bonus action",
+    "duration": "Concentration, up to 1 minute",
+    "school": {
+      "index": "enchantment"
+    },
+    "classes": [
+      { "index": "paladin" }
+    ],
+    "subclasses": [
+      { "index": "crown" }
+    ]
+  },
+  {
+    "index": "elemental-weapon",
+    "name": "Elemental Weapon",
+    "level": 3,
+    "desc": [
+      "A nonmagical weapon you touch becomes a magic weapon. Choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. For the duration, the weapon has a +1 bonus to attack rolls and deals an extra 1d4 damage of the chosen type when it hits."
+    ],
+    "higher_level": [
+      "Using a Higher-Level Spell Slot. If you use a level 5-6 spell slot, the bonus to attack rolls increases to +2, and the extra damage increases to 2d4. If you use a level 7+ spell slot, the bonus increases to +3, and the extra damage increases to 3d4."
+    ],
+    "casting_time": "Action",
+    "duration": "Concentration, up to 1 hour",
+    "school": {
+      "index": "transmutation"
+    },
+    "classes": [
+      { "index": "artificer" },
+      { "index": "druid" },
+      { "index": "paladin" },
+      { "index": "ranger" }
+    ],
+    "subclasses": [
+      { "index": "lore" },
+      { "index": "forge" },
+      { "index": "hexblade" }
+    ]
+  },
+  {
+    "index": "tashas-hideous-laughter",
+    "name": "Tasha's Hideous Laughter",
+    "level": 1,
+    "desc": [
+      "One creature of your choice that you can see within range makes a Wisdom saving throw. On a failed save, it has the Prone and Incapacitated conditions for the duration. During that time, it laughs uncontrollably if it's capable of laughter, and it can't end the Prone condition on itself.",
+      "At the end of each of its turns and each time it takes damage, it makes another Wisdom saving throw. The target has Advantage on the save if the save is triggered by damage. On a successful save, the spell ends."
+    ],
+    "higher_level": [
+      "Using a Higher-Level Spell Slot. You can target one additional creature for each spell slot level above 1."
+    ],
+    "casting_time": "Action",
+    "duration": "Concentration, up to 1 minute",
+    "school": {
+      "index": "enchantment"
+    },
+    "classes": [
+      { "index": "bard" },
+      { "index": "warlock" },
+      { "index": "wizard" }
+    ],
+    "subclasses": [
+      { "index": "arcane-trickster" },
+      { "index": "lore" },
+      { "index": "eldritch-knight" },
+      { "index": "great-old-one" }
+    ]
+  },
+  {
+    "index": "chromatic-orb",
+    "name": "Chromatic Orb",
+    "level": 1,
+    "desc": [
+      "You hurl an orb of energy at a target within range. Choose Acid, Cold, Fire, Lightning, Poison, or Thunder for the type of orb you create, and then make a ranged spell attack against the target. On a hit, the target takes 3d8 damage of the chosen type.",
+      "If you roll the same number on two or more of the d8s, the orb leaps to a different target of your choice within 30 feet of the target. Make an attack roll against the new target, and make a new damage roll. The orb can't leap again unless you cast the spell with a level 2+ spell slot."
+    ],
+    "higher_level": [
+      "Using a Higher-Level Spell Slot. The damage increases by 1d8 for each spell slot level above 1. The orb can leap a maximum number of times equal to the level of the slot expended, and a creature can be targeted only once by each casting of this spell."
+    ],
+    "casting_time": "Action",
+    "duration": "Instantaneous",
+    "school": {
+      "index": "evocation"
+    },
+    "classes": [
+      { "index": "sorcerer" },
+      { "index": "wizard" }
+    ],
+    "subclasses": [
+      { "index": "arcane-trickster" },
+      { "index": "lore" },
+      { "index": "draconic" },
+      { "index": "eldritch-knight" },
+      { "index": "evoker" },
+      { "index": "noble-genies" }
+    ]
+  },
+  {
+    "index": "friends",
+    "name": "Friends",
+    "level": 0,
+    "desc": [
+      "You magically emanate a sense of friendship toward one creature you can see within range. The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target succeeds automatically if it isn't a Humanoid, if you're fighting it, or if you have cast this spell on it within the past 24 hours.",
+      "The spell ends early if the target takes damage or if you make an attack roll, deal damage, or force anyone to make a saving throw. When the spell ends, the target knows it was Charmed by you."
+    ],
+    "casting_time": "Action",
+    "duration": "Concentration, up to 1 minute",
+    "school": {
+      "index": "enchantment"
+    },
+    "classes": [
+      { "index": "bard" },
+      { "index": "sorcerer" },
+      { "index": "warlock" },
+      { "index": "wizard" }
+    ],
+    "subclasses": [
+      { "index": "arcana" },
+      { "index": "arcane-trickster" },
+      { "index": "lore" },
+      { "index": "eldritch-knight" }
+    ]
+  },
+  {
+    "index": "hex",
+    "name": "Hex",
+    "level": 1,
+    "desc": [
+      "You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 Necrotic damage to the target whenever you hit it with an attack roll. Also, choose one ability when you cast the spell. The target has Disadvantage on ability checks made with the chosen ability.",
+      "If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action on a later turn to curse a new creature."
+    ],
+    "higher_level": [
+      "Using a Higher-Level Spell Slot. Your Concentration can last longer with a spell slot of level 2 (up to 4 hours), 3-4 (up to 8 hours), or 5+ (24 hours)."
+    ],
+    "casting_time": "Bonus action",
+    "duration": "Concentration, up to 1 hour",
+    "school": {
+      "index": "enchantment"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "necrotic"
+      }
+    },
+    "classes": [
+      { "index": "warlock" }
+    ],
+    "subclasses": [
+      { "index": "great-old-one" }
+    ]
+  },
+  {
+    "index": "crown-of-madness",
+    "name": "Crown of Madness",
+    "level": 2,
+    "desc": [
+      "One creature that you can see within range must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The creature succeeds automatically if it isn't Humanoid.",
+      "A spectral crown appears on the Charmed target's head, and it must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose. The target can act normally on its turn if you choose no creature or if no creature is within its reach. The target repeats the save at the end of each of its turns, ending the spell on itself on a success.",
+      "On your later turns, you must take the Magic action to maintain control of the target, or the spell ends."
+    ],
+    "casting_time": "Action",
+    "duration": "Concentration, up to 1 minute",
+    "school": {
+      "index": "enchantment"
+    },
+    "classes": [
+      { "index": "bard" },
+      { "index": "sorcerer" },
+      { "index": "warlock" },
+      { "index": "wizard" }
+    ],
+    "subclasses": [
+      { "index": "arcane-trickster" },
+      { "index": "lore" },
+      { "index": "eldritch-knight" },
+      { "index": "oathbreaker" }
+    ]
+  },
+  {
+    "index": "aura-of-vitality",
+    "name": "Aura of Vitality",
+    "level": 3,
+    "desc": [
+      "An aura radiates from you in a 30-foot Emanation for the duration. When you create the aura and at the start of each of your turns while it persists, you can restore 2d6 Hit Points to one creature in it."
+    ],
+    "casting_time": "Action",
+    "duration": "Concentration, up to 1 minute",
+    "school": {
+      "index": "abjuration"
+    },
+    "classes": [
+      { "index": "cleric" },
+      { "index": "druid" },
+      { "index": "paladin" }
+    ],
+    "subclasses": [
+      { "index": "battle-smith" },
+      { "index": "lore" },
+      { "index": "divine-soul" },
+      { "index": "crown" },
+      { "index": "spellfire" },
+      { "index": "twilight" }
+    ]
+  },
+  {
+    "index": "ensnaring-strike",
+    "name": "Ensnaring Strike",
+    "level": 1,
+    "desc": [
+      "As you hit the target, grasping vines appear on it, and it makes a Strength saving throw. A Large or larger creature has Advantage on this save. On a failed save, the target has the Restrained condition until the spell ends. On a successful save, the vines shrivel away, and the spell ends.",
+      "While Restrained, the target takes 1d6 Piercing damage at the start of each of its turns. The target or a creature within reach of it can take an action to make a Strength (Athletics) check against your spell save DC. On a success, the spell ends."
+    ],
+    "higher_level": [
+      "Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 1."
+    ],
+    "casting_time": "Bonus action, which you take immediately after hitting a creature with a weapon",
+    "duration": "Concentration, up to 1 minute",
+    "school": {
+      "index": "conjuration"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "piercing"
+      }
+    },
+    "classes": [
+      { "index": "ranger" }
+    ],
+    "subclasses": [
+      { "index": "ancients" }
+    ]
+  },
+  {
+    "index": "ice-knife",
+    "name": "Ice Knife",
+    "level": 1,
+    "desc": [
+      "You create a shard of ice and fling it at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 Piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity saving throw or take 2d6 Cold damage."
+    ],
+    "higher_level": [
+      "Using a Higher-Level Spell Slot. The Cold damage increases by 1d6 for each spell slot level above 1."
+    ],
+    "casting_time": "Action",
+    "duration": "Instantaneous",
+    "school": {
+      "index": "conjuration"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "cold"
+      }
+    },
+    "classes": [
+      { "index": "druid" },
+      { "index": "sorcerer" },
+      { "index": "wizard" }
+    ],
+    "subclasses": [
+      { "index": "arcane-trickster" },
+      { "index": "lore" },
+      { "index": "eldritch-knight" },
+      { "index": "winter-walker" }
+    ]
+  },
+  {
+    "index": "witch-bolt",
+    "name": "Witch Bolt",
+    "level": 1,
+    "desc": [
+      "A beam of crackling energy lances toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against it. On a hit, the target takes 2d12 Lightning damage.",
+      "On each of your subsequent turns, you can take a Bonus Action to deal 1d12 Lightning damage to the target automatically, even if the first attack missed.",
+      "The spell ends if the target is ever outside the spell's range or if it has Total Cover from you."
+    ],
+    "higher_level": [
+      "Using a Higher-Level Spell Slot. The initial damage increases by 1d12 for each spell slot level above 1."
+    ],
+    "casting_time": "Action",
+    "duration": "Concentration, up to 1 minute",
+    "school": {
+      "index": "evocation"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "lightning"
+      }
+    },
+    "classes": [
+      { "index": "sorcerer" },
+      { "index": "warlock" },
+      { "index": "wizard" }
+    ],
+    "subclasses": [
+      { "index": "arcane-trickster" },
+      { "index": "lore" },
+      { "index": "eldritch-knight" },
+      { "index": "evoker" }
+    ]
+  },
+  {
+    "index": "staggering-smite",
+    "name": "Staggering Smite",
+    "level": 4,
+    "desc": [
+      "The target takes an extra 4d6 Psychic damage from the attack, and the target must succeed on a Wisdom saving throw or have the Stunned condition until the end of your next turn."
+    ],
+    "higher_level": [
+      "Using a Higher-Level Spell Slot. The extra damage increases by 1d6 for each spell slot level above 4."
+    ],
+    "casting_time": "Bonus action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike",
+    "duration": "Instantaneous",
+    "school": {
+      "index": "enchantment"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "psychic"
+      }
+    },
+    "classes": [
+      { "index": "paladin" }
+    ],
+    "subclasses": [
+      { "index": "hexblade" }
+    ]
+  },
+  {
+    "index": "synaptic-static",
+    "name": "Synaptic Static",
+    "level": 5,
+    "desc": [
+      "You cause psychic energy to erupt at a point within range. Each creature in a 20-foot-radius Sphere centered on that point makes an Intelligence saving throw, taking 8d6 Psychic damage on a failed save or half as much damage on a successful one.",
+      "On a failed save, a target also has muddled thoughts for 1 minute. During that time, it subtracts 1d6 from all its attack rolls and ability checks, as well as any Constitution saving throws to maintain Concentration. The target makes an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success."
+    ],
+    "casting_time": "Action",
+    "duration": "Instantaneous",
+    "school": {
+      "index": "enchantment"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "psychic"
+      }
+    },
+    "classes": [
+      { "index": "bard" },
+      { "index": "sorcerer" },
+      { "index": "warlock" },
+      { "index": "wizard" }
+    ],
+    "subclasses": [
+      { "index": "knowledge" }
+    ]
+  },
+  {
+    "index": "blade-ward",
+    "name": "Blade Ward",
+    "level": 0,
+    "desc": [
+      "Whenever a creature makes an attack roll against you before the spell ends, the attacker subtracts 1d4 from the attack roll."
+    ],
+    "casting_time": "Action",
+    "duration": "Concentration, up to 1 minute",
+    "school": {
+      "index": "abjuration"
+    },
+    "classes": [
+      { "index": "bard" },
+      { "index": "sorcerer" },
+      { "index": "warlock" },
+      { "index": "wizard" }
+    ],
+    "subclasses": [
+      { "index": "abjurer" },
+      { "index": "arcana" },
+      { "index": "arcane-trickster" },
+      { "index": "lore" },
+      { "index": "eldritch-knight" },
+      { "index": "scion-of-the-three" }
+    ]
+  },
+  {
+    "index": "grasping-vine",
+    "name": "Grasping Vine",
+    "level": 4,
+    "desc": [
+      "You conjure a vine that sprouts from a surface in an unoccupied space that you can see within range. The vine lasts for the duration.",
+      "Make a melee spell attack against a creature within 30 feet of the vine. On a hit, the target takes 4d8 Bludgeoning damage and is pulled up to 30 feet toward the vine; if the target is Huge or smaller, it has the Grappled condition (escape DC equal to your spell save DC). The vine can grapple only one creature at a time, and you can cause the vine to release a Grappled creature (no action required).",
+      "As a Bonus Action on your later turns, you can repeat the attack against a creature within 30 feet of the vine."
+    ],
+    "higher_level": [
+      "Using a Higher-Level Spell Slot. The number of creatures the vine can grapple increases by one for each spell slot level above 4."
+    ],
+    "casting_time": "Bonus action",
+    "duration": "Concentration, up to 1 minute",
+    "school": {
+      "index": "conjuration"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "bludgeoning"
+      }
+    },
+    "classes": [
+      { "index": "druid" },
+      { "index": "ranger" }
+    ],
+    "subclasses": [
+      { "index": "nature" }
+    ]
+  },
+  {
+    "index": "thorn-whip",
+    "name": "Thorn Whip",
+    "level": 0,
+    "desc": [
+      "You create a vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. On a hit, the target takes 1d6 Piercing damage, and if it is Large or smaller, you can pull it up to 10 feet closer to you."
+    ],
+    "higher_level": [
+      "Cantrip Upgrade. The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6)."
+    ],
+    "casting_time": "Action",
+    "duration": "Instantaneous",
+    "school": {
+      "index": "transmutation"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "piercing"
+      }
+    },
+    "classes": [
+      { "index": "artificer" },
+      { "index": "druid" }
+    ],
+    "subclasses": [
+      { "index": "land" },
+      { "index": "lore" },
+      { "index": "moon" },
+      { "index": "nature" },
+      { "index": "strength" }
+    ]
+  },
+  {
+    "index": "beast-sense",
+    "name": "Beast Sense",
+    "level": 2,
+    "desc": [
+      "You touch a willing Beast. For the duration, you can perceive through the Beast's senses as well as your own. When perceiving through the Beast's senses, you benefit from any special senses it has."
+    ],
+    "casting_time": "Action or Ritual",
+    "duration": "Concentration, up to 1 hour",
+    "school": {
+      "index": "divination"
+    },
+    "classes": [
+      { "index": "druid" },
+      { "index": "ranger" }
+    ],
+    "subclasses": [
+      { "index": "lore" },
+      { "index": "totem-warrior" },
+      { "index": "wild-heart" }
+    ]
+  },
+  {
+    "index": "dragons-breath",
+    "name": "Dragon's Breath",
+    "level": 2,
+    "desc": [
+      "You touch one willing creature, and choose Acid, Cold, Fire, Lightning, or Poison. Until the spell ends, the target can take a Magic action to exhale a 15-foot Cone. Each creature in that area makes a Dexterity saving throw, taking 3d6 damage of the chosen type on a failed save or half as much damage on a successful one."
+    ],
+    "higher_level": [
+      "Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 2."
+    ],
+    "casting_time": "Bonus action",
+    "duration": "Concentration, up to 1 minute",
+    "school": {
+      "index": "transmutation"
+    },
+    "classes": [
+      { "index": "artificer" },
+      { "index": "sorcerer" },
+      { "index": "wizard" }
+    ],
+    "subclasses": [
+      { "index": "arcane-trickster" },
+      { "index": "lore" },
+      { "index": "draconic" },
+      { "index": "eldritch-knight" }
+    ]
+  },
+  {
+    "index": "thunderclap",
+    "name": "Thunderclap",
+    "level": 0,
+    "desc": [
+      "Each creature in a 5-foot Emanation originating from you must succeed on a Constitution saving throw or take 1d6 Thunder damage. The spell's thunderous sound can be heard up to 100 feet away."
+    ],
+    "higher_level": [
+      "Cantrip Upgrade. The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6)."
+    ],
+    "casting_time": "Action",
+    "duration": "Instantaneous",
+    "school": {
+      "index": "evocation"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "thunder"
+      }
+    },
+    "classes": [
+      { "index": "artificer" },
+      { "index": "bard" },
+      { "index": "druid" },
+      { "index": "sorcerer" },
+      { "index": "warlock" },
+      { "index": "wizard" }
+    ],
+    "subclasses": [
+      { "index": "arcana" },
+      { "index": "arcane-trickster" },
+      { "index": "land" },
+      { "index": "lore" },
+      { "index": "moon" },
+      { "index": "eldritch-knight" },
+      { "index": "evoker" },
+      { "index": "nature" },
+      { "index": "strength" }
+    ]
+  },
+  {
+    "index": "dissonant-whispers",
+    "name": "Dissonant Whispers",
+    "level": 1,
+    "desc": [
+      "One creature of your choice that you can see within range hears a discordant melody in its mind. The target makes a Wisdom saving throw. On a failed save, it takes 3d6 Psychic damage and must immediately use its Reaction, if available, to move as far away from you as it can, using the safest route. On a successful save, the target takes half as much damage only."
+    ],
+    "higher_level": [
+      "Using a Higher-Level Spell Slot. The damage increases by 1d6 for each spell slot level above 1."
+    ],
+    "casting_time": "Action",
+    "duration": "Instantaneous",
+    "school": {
+      "index": "enchantment"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "psychic"
+      }
+    },
+    "classes": [
+      { "index": "bard" }
+    ],
+    "subclasses": [
+      { "index": "aberrant" },
+      { "index": "great-old-one" }
+    ]
+  },
+  {
+    "index": "armor-of-agathys",
+    "name": "Armor of Agathys",
+    "level": 1,
+    "desc": [
+      "Protective magical frost surrounds you. You gain 5 Temporary Hit Points. If a creature hits you with a melee attack roll before the spell ends, the creature takes 5 Cold damage. The spell ends early if you have no Temporary Hit Points."
+    ],
+    "higher_level": [
+      "Using a Higher-Level Spell Slot. The Temporary Hit Points and the Cold damage both increase by 5 for each spell slot level above 1."
+    ],
+    "casting_time": "Bonus action",
+    "duration": "1 hour",
+    "school": {
+      "index": "abjuration"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "cold"
+      }
+    },
+    "classes": [
+      { "index": "warlock" }
+    ],
+    "subclasses": [
+      { "index": "conquest" }
+    ]
+  },
+  {
+    "index": "tensers-floating-disk",
+    "name": "Tenser's Floating Disk",
+    "level": 1,
+    "desc": [
+      "This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.",
+      "The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 10 feet or more. For example, the disk can't move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.",
+      "If you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the spell ends."
+    ],
+    "casting_time": "Action or Ritual",
+    "duration": "1 hour",
+    "school": {
+      "index": "conjuration"
+    },
+    "classes": [
+      { "index": "wizard" }
+    ],
+    "subclasses": [
+      { "index": "arcane-trickster" },
+      { "index": "lore" },
+      { "index": "eldritch-knight" }
+    ]
+  },
+  {
+    "index": "banishing-smite",
+    "name": "Banishing Smite",
+    "level": 5,
+    "desc": [
+      "The target hit by the attack roll takes an extra 5d10 Force damage from the attack. If the attack reduces the target to 50 Hit Points or fewer, the target must succeed on a Charisma saving throw or be transported to a harmless demiplane for the duration. While there, the target has the Incapacitated condition. When the spell ends, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied."
+    ],
+    "casting_time": "Bonus action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike",
+    "duration": "Concentration, up to 1 minute",
+    "school": {
+      "index": "conjuration"
+    },
+    "damage": {
+      "damage_type": {
+        "index": "force"
+      }
+    },
+    "classes": [
+      { "index": "paladin" }
+    ],
+    "subclasses": [
+      { "index": "battle-smith" },
+      { "index": "noble-genies" },
+      { "index": "hexblade" }
+    ]
+  }
+]
