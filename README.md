@@ -5,7 +5,7 @@ The workflow is organized into modular Python scripts
 ---
 
 ## 1. Knowledge Graph 
-
+https://github.com/5e-bits/5e-database/tree/main/src
 **Files:** `config.py`, `database.py`, `loaders.py`, `KG_creation.py`
 
 
@@ -106,7 +106,11 @@ The workflow is organized into modular Python scripts
 ├── KG_creation.py 
 ├── Inf_&Training.ipynb 
 ├── validation.ipynb 
-├── processed_dataset/ 
-└── inference_results/ 
+├── Output/ 
 
-## Output Data:
+
+
+## Output folder:
+with training files, inference predicions, validation reports
+
+For dataset creation see: https://github.com/Alberta-Motca-Schnabel/DnD_Project_Semantics

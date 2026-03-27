@@ -1,0 +1,149 @@
+====================================================================================================
+                          PROJECT FINAL COMPARISON REPORT
+====================================================================================================
+
+[METRIC DEFINITIONS]
+- Valid JSON: Syntactically correct JSON output.
+- GEN Full (Generation Success): Strict adherence to D&D 5e rules (Stats, Spells, Class reqs).
+- GEN Part (Generation Partial): Valid JSON with new content but minor rule violations.
+- COMP Full (Completion Success): Correct NULL field population without data loss.
+- COMP Part (Completion Partial): Fields filled with minor inconsistencies.
+- REF Full (Refusal Success): Successful refusal of invalid/unsafe prompts.
+
+[ERROR TYPE DEFINITIONS]
+- FAIL_FORMAT_EMPTY: No extractable data or empty JSON.
+- FAIL_LOOP: Model output entered a repetition loop.
+- FAIL_MUTATION: Hallucinated changes to immutable input data.
+- FAIL_STAGNATION: Model echoed input without generating new data.
+- FAIL_REFUSAL: Model failed to refuse an invalid request.
+- FAIL_COMPLETION: Target fields remained NULL in completion task.
+
+====================================================================================================
+
+[DETAILED PERFORMANCE BREAKDOWN]
+
+--------------------------------------------------------------------------------
+MODEL: Llama-3.2-1B-Instruct_Base_Alpaca | MODE: Base (Alpaca)
+--------------------------------------------------------------------------------
+  GEN TASK:
+    - FAIL_MUTATION       : 153
+    - PARTIAL_SUCCESS     : 57
+    - FAIL_STAGNATION     : 2
+  COMP TASK:
+    - FAIL_MUTATION       : 145
+    - PARTIAL_SUCCESS     : 34
+    - FAIL_STAGNATION     : 30
+    - SUCCESS             : 3
+  REF TASK:
+    - FAILURE             : 212
+
+--------------------------------------------------------------------------------
+MODEL: Llama-3.2-1B-Instruct_Base_Chat | MODE: Base (Chat)
+--------------------------------------------------------------------------------
+  GEN TASK:
+    - PARTIAL_SUCCESS     : 212
+  COMP TASK:
+    - PARTIAL_SUCCESS     : 187
+    - FAIL_STAGNATION     : 14
+    - SUCCESS             : 11
+  REF TASK:
+    - FAILURE             : 212
+
+--------------------------------------------------------------------------------
+MODEL: Llama-3.2-1B-Instruct_Alpaca | MODE: FT (Alpaca)
+--------------------------------------------------------------------------------
+  GEN TASK:
+    - FAIL_MUTATION       : 121
+    - PARTIAL_SUCCESS     : 90
+    - SUCCESS             : 1
+  COMP TASK:
+    - PARTIAL_SUCCESS     : 130
+    - FAIL_STAGNATION     : 57
+    - FAIL_MUTATION       : 24
+    - SUCCESS             : 1
+  REF TASK:
+    - FAILURE             : 212
+
+--------------------------------------------------------------------------------
+MODEL: Llama-3.2-1B-Instruct_Chat | MODE: FT (Chat)
+--------------------------------------------------------------------------------
+  GEN TASK:
+    - FAIL_STAGNATION     : 209
+    - PARTIAL_SUCCESS     : 3
+  COMP TASK:
+    - PARTIAL_SUCCESS     : 198
+    - FAIL_STAGNATION     : 14
+  REF TASK:
+    - FAILURE             : 212
+
+--------------------------------------------------------------------------------
+MODEL: Qwen3-0.6B_Base_Alpaca | MODE: Base (Alpaca)
+--------------------------------------------------------------------------------
+  GEN TASK:
+    - FAIL_MUTATION       : 155
+    - PARTIAL_SUCCESS     : 45
+    - FAIL_STAGNATION     : 8
+    - FAIL_REFUSAL        : 4
+  COMP TASK:
+    - FAIL_MUTATION       : 106
+    - PARTIAL_SUCCESS     : 83
+    - FAIL_STAGNATION     : 16
+    - SUCCESS             : 7
+  REF TASK:
+    - FAILURE             : 212
+
+--------------------------------------------------------------------------------
+MODEL: Qwen3-0.6B_Base_Chat | MODE: Base (Chat)
+--------------------------------------------------------------------------------
+  GEN TASK:
+    - PARTIAL_SUCCESS     : 212
+  COMP TASK:
+    - PARTIAL_SUCCESS     : 179
+    - SUCCESS             : 19
+    - FAIL_STAGNATION     : 14
+  REF TASK:
+    - FAILURE             : 212
+
+--------------------------------------------------------------------------------
+MODEL: Qwen3-0.6B_Alpaca_Merged_16bit | MODE: FT (Alpaca)
+--------------------------------------------------------------------------------
+  GEN TASK:
+    - FAIL_MUTATION       : 161
+    - PARTIAL_SUCCESS     : 51
+  COMP TASK:
+    - FAIL_STAGNATION     : 121
+    - PARTIAL_SUCCESS     : 90
+    - FAIL_MUTATION       : 1
+  REF TASK:
+    - FAILURE             : 212
+
+--------------------------------------------------------------------------------
+MODEL: Qwen3-0.6B_Chat_Merged_16bit_Chat | MODE: FT (Chat)
+--------------------------------------------------------------------------------
+  GEN TASK:
+    - PARTIAL_SUCCESS     : 200
+    - SUCCESS             : 11
+    - FAIL_STAGNATION     : 1
+  COMP TASK:
+    - PARTIAL_SUCCESS     : 182
+    - FAIL_REFUSAL        : 14
+    - FAIL_STAGNATION     : 14
+    - SUCCESS             : 2
+  REF TASK:
+    - FAILURE             : 212
+
+====================================================================================================
+[FINAL COMPARISON TABLE]
+----------------------------------------------------------------------------------------------------------------------
+| MODEL & MODE                               | JSON %   | GEN Full   | GEN Part   | COMP Full  | COMP Part  | REF %    |
+----------------------------------------------------------------------------------------------------------------------
+| Llama-3.2-1B-Instruct_Base_Alpaca [Base..  | 32.2%    | 0.0%       | 26.9%      | 1.4%       | 16.0%      | 0.0%     |
+| Llama-3.2-1B-Instruct_Base_Chat [Base (..  | 56.9%    | 0.0%       | 100.0%     | 5.2%       | 88.2%      | 0.0%     |
+| Llama-3.2-1B-Instruct_Alpaca..             | 95.6%    | 0.5%       | 42.5%      | 0.5%       | 61.3%      | 0.0%     |
+| Llama-3.2-1B-Instruct_Chat..               | 96.2%    | 0.0%       | 1.4%       | 0.0%       | 93.4%      | 0.0%     |
+| ------------------------------------------ | -------- | ---------- | ---------- | ---------- | ---------- | -------- |
+| Qwen3-0.6B_Base_Alpaca [Base (Alpaca)]     | 50.5%    | 0.0%       | 21.2%      | 3.3%       | 39.2%      | 0.0%     |
+| Qwen3-0.6B_Base_Chat [Base (Chat)]         | 46.9%    | 0.0%       | 100.0%     | 9.0%       | 84.4%      | 0.0%     |
+| Qwen3-0.6B_Alpaca [FT                      | 96.5%    | 0.0%       | 24.1%      | 0.0%       | 42.5%      | 0.0%     |
+| Qwen3-0.6B_Chat [FT                        | 96.4%    | 5.2%       | 94.3%      | 0.9%       | 85.8%      | 0.0%     |
+----------------------------------------------------------------------------------------------------------------------

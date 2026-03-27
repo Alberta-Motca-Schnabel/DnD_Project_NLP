@@ -1,0 +1,37 @@
+VALIDATION REPORT (V15 - KG INTEGRATED)
+Directory: /content/drive/MyDrive/DnD_Project_Data_NLP/inference_results_alpaca
+================================================================================
+
+MODEL: Qwen3-0.6B_Alpaca
+----------------------------------------
+[FORMAT COMPLIANCE]
+  Valid JSON: 614 (96.5%)
+
+[SUBSTANCE & RULES PERFORMANCE]
+  GEN TASK (Total: 212)
+    - FAIL_MUTATION       : 161 (75.9%)
+    - PARTIAL_SUCCESS     : 51 (24.1%)
+  COMP TASK (Total: 212)
+    - FAIL_MUTATION       : 1 (0.5%)
+    - FAIL_STAGNATION     : 121 (57.1%)
+    - PARTIAL_SUCCESS     : 90 (42.5%)
+  REF TASK (Total: 212)
+    - FAILURE             : 212 (100.0%)
+
+MODEL: Llama-3.2-1B-Instruct_Alpaca
+----------------------------------------
+[FORMAT COMPLIANCE]
+  Valid JSON: 608 (95.6%)
+
+[SUBSTANCE & RULES PERFORMANCE]
+  GEN TASK (Total: 212)
+    - FAIL_MUTATION       : 121 (57.1%)
+    - PARTIAL_SUCCESS     : 90 (42.5%)
+    - SUCCESS             : 1 (0.5%)
+  COMP TASK (Total: 212)
+    - FAIL_MUTATION       : 24 (11.3%)
+    - FAIL_STAGNATION     : 57 (26.9%)
+    - PARTIAL_SUCCESS     : 130 (61.3%)
+    - SUCCESS             : 1 (0.5%)
+  REF TASK (Total: 212)
+    - FAILURE             : 212 (100.0%)

@@ -1,0 +1,36 @@
+VALIDATION REPORT (V15 - KG INTEGRATED)
+Directory: /content/drive/MyDrive/DnD_Project_Data_NLP/inference_results_chat
+================================================================================
+
+MODEL: Llama-3.2-1B-Instruct_Chat
+----------------------------------------
+[FORMAT COMPLIANCE]
+  Valid JSON: 612 (96.2%)
+
+[SUBSTANCE & RULES PERFORMANCE]
+  GEN TASK (Total: 212)
+    - FAIL_STAGNATION     : 209 (98.6%)
+    - PARTIAL_SUCCESS     : 3 (1.4%)
+  COMP TASK (Total: 212)
+    - FAIL_STAGNATION     : 14 (6.6%)
+    - PARTIAL_SUCCESS     : 198 (93.4%)
+  REF TASK (Total: 212)
+    - FAILURE             : 212 (100.0%)
+
+MODEL: Qwen3-0.6B_Chat
+----------------------------------------
+[FORMAT COMPLIANCE]
+  Valid JSON: 613 (96.4%)
+
+[SUBSTANCE & RULES PERFORMANCE]
+  GEN TASK (Total: 212)
+    - FAIL_STAGNATION     : 1 (0.5%)
+    - PARTIAL_SUCCESS     : 200 (94.3%)
+    - SUCCESS             : 11 (5.2%)
+  COMP TASK (Total: 212)
+    - FAIL_REFUSAL        : 14 (6.6%)
+    - FAIL_STAGNATION     : 14 (6.6%)
+    - PARTIAL_SUCCESS     : 182 (85.8%)
+    - SUCCESS             : 2 (0.9%)
+  REF TASK (Total: 212)
+    - FAILURE             : 212 (100.0%)
